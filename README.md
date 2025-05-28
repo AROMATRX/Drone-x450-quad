@@ -18,7 +18,7 @@ This is a fully autonomous quadcopter project based on the **X450 drone frame** 
 | 1045 Propellers           | For generating lift                       |
 | 3S 2200mAh LiPo Battery   | Power source                              |
 | FlySky FS-i6 Transmitter  | Manual control                            |
-| Telemetry Module (433MHz) | For PC connection and mission data        |
+
 
 ---
 
@@ -34,7 +34,7 @@ This is a fully autonomous quadcopter project based on the **X450 drone frame** 
 ### Step 1: Flash Firmware
 
 * Connect APM 2.8 to PC via USB.
-* Open Mission Planner → Initial Setup → Install Firmware → Select ArduCopter v3.2.1.
+* Open Mission Planner → Initial Setup → Install Firmware → Select ArduCopter v1.3.49.
 
 ### Step 2: Sensor Calibration
 
