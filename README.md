@@ -45,12 +45,41 @@ This is a fully autonomous quadcopter project based on the **X450 drone frame** 
 * Flight Mode Setup (Stabilize, AltHold, Loiter, RTL, Auto)
 
 ### Step 3: ESC Calibration (Manual Method)
+🔍 What is ESC?
+ESC means Electronic Speed Controller.
+It controls the speed of your drone’s motors.
+ESC calibration tells the ESC what is maximum and minimum throttle from your remote.
 
-1. Remove propellers.
-2. Turn on transmitter, throttle full.
-3. Power APM via battery.
-4. Wait for beeps → Throttle down → Calibration done.
+⚠️ Safety First:
+Remove propellers before you start – very important!
 
+Make sure battery is fully charged.
+
+✅ Manual ESC Calibration – Step by Step:
+Remove propellers from all motors.
+
+Turn ON your remote controller.
+
+Push the throttle stick to the top (full throttle).
+
+Connect the battery to the APM/drone.
+
+You will hear beep-beep sounds from ESCs.
+
+After the beeping stops, move throttle stick to the bottom (zero throttle).
+
+You will hear a confirmation beep.
+
+ESC Calibration is done! ✅
+
+❗ If ESC calibration is not working:
+Check battery connection.
+
+Make sure ESC signal wires are connected properly to APM.
+
+Try one ESC at a time (individual ESC calibration).
+
+Recheck your throttle channel in Mission Planner.
 ---
 
 ## ✈️ Flight Modes
@@ -76,13 +105,18 @@ This is a fully autonomous quadcopter project based on the **X450 drone frame** 
 
 ## 🧪 Troubleshooting
 
-| Problem                    | Solution                                  |
-| -------------------------- | ----------------------------------------- |
-| Drone spinning during lift | Check motor order and propeller direction |
-| One motor not spinning     | Check ESC connection and solder joints    |
-| Disarms automatically      | Check battery voltage and GPS HDOP        |
-| Continuous beeping         | ESC not calibrated or low voltage         |
-
+✅ Drone Troubleshooting Table (Simple English)
+🚨 Problem (Issue)	❓ Why it happens	✅ Easy Solution
+Drone arms but motors not spinning	ESC not calibrated or bad connection	Do ESC calibration again and check motor wires
+One motor not spinning	ESC or wire problem	Check ESC connection, try swapping ESC to test
+Drone lifts but spins in air	Wrong motor order or propeller direction	Fix motor number and propeller direction (CW/CCW)
+Drone disarms in air	GPS weak or battery low	Make sure GPS has 6+ satellites and battery is charged
+Drone keeps beeping	ESC not calibrated or low battery	Calibrate ESC or check battery voltage
+Can't arm drone	Safety checks not passed (like no GPS)	Wait for GPS lock, check Mission Planner for errors
+Loiter to Land automatically	GPS weak or failsafe activated	Check GPS signal, make sure HDOP < 2.0
+Message action not working	Flight mode not set properly	Set correct flight mode in Mission Planner
+ESC calibration not working	Wrong method used	Follow manual ESC calibration (remove props!)
+Drone flies then stops mid-air	Power cut or failsafe	Check battery, power module, failsafe settings
 ---
 
 ## 📂 Project Structure
