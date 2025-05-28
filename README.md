@@ -35,6 +35,7 @@ This is a fully autonomous quadcopter project based on the **X450 drone frame** 
 
 * Connect APM 2.8 to PC via USB.
 * Open Mission Planner → Initial Setup → Install Firmware → Select ArduCopter v1.3.49.
+* links are :- https://firmware.ardupilot.org/Tools/MissionPlanner/archive/MissionPlanner-1.3.49.msi
 
 ### Step 2: Sensor Calibration
 
