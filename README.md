@@ -105,23 +105,18 @@ Recheck your throttle channel in Mission Planner.
 
 ## 🧪 Troubleshooting
 
-✅ Drone Troubleshooting Table 
-🚨 Problem (Issue)	❓ Why it happens	✅ Easy Solution
-
-Drone arms but motors not spinning	
-ESC not calibrated or bad connection	
-Do ESC calibration again and check motor wires
-One motor not spinning	ESC or wire problem	Check ESC connection, 
-try swapping ESC to test
-Drone lifts but spins in air	Wrong motor order or propeller direction	Fix motor number and propeller direction (CW/CCW)
-Drone disarms in air	GPS weak or battery low	Make sure GPS has 6+ satellites and battery is charged
-Drone keeps beeping	ESC not calibrated or low battery	Calibrate ESC or check battery voltage
-Can't arm drone	Safety checks not passed (like no GPS)	Wait for GPS lock, check Mission Planner for errors
-Loiter to Land automatically	GPS weak or failsafe activated	Check GPS signal, make sure HDOP < 2.0
-Message action not working	Flight mode not set properly	Set correct flight mode in Mission Planner
-ESC calibration not working	Wrong method used	Follow manual ESC calibration (remove props!)
-Drone flies then stops mid-air	Power cut or failsafe	Check battery, power module, failsafe settings
----
+| 🚨 Problem (Issue)                 | ❓ Why it happens                         | ✅ Easy Solution                                        |
+| ---------------------------------- | ---------------------------------------- | ------------------------------------------------------ |
+| Drone arms but motors not spinning | ESC not calibrated or bad connection     | Do ESC calibration again and check motor wires         |
+| One motor not spinning             | ESC or wire problem                      | Check ESC connection, try swapping ESC to test         |
+| Drone lifts but spins in air       | Wrong motor order or propeller direction | Fix motor number and propeller direction (CW/CCW)      |
+| Drone disarms in air               | GPS weak or battery low                  | Make sure GPS has 6+ satellites and battery is charged |
+| Drone keeps beeping                | ESC not calibrated or low battery        | Calibrate ESC or check battery voltage                 |
+| Can't arm drone                    | Safety checks not passed (like no GPS)   | Wait for GPS lock, check Mission Planner for errors    |
+| Loiter to Land automatically       | GPS weak or failsafe activated           | Check GPS signal, make sure HDOP < 2.0                 |
+| Message action not working         | Flight mode not set properly             | Set correct flight mode in Mission Planner             |
+| ESC calibration not working        | Wrong method used                        | Follow manual ESC calibration (remove props!)          |
+| Drone flies then stops mid-air     | Power cut or failsafe                    | Check battery, power module, failsafe settings         |
 
 ---
 
