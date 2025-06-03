@@ -1,0 +1,14 @@
+{
+  "name": "Drone-x450-quad",
+  "description": "An open source drone project seeking funding for development and innovation.",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/AROMATRX"
+    },
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/tumharaPayPalUsername"
+    }
+  ]
+}
